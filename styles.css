@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrapper{
+    display: grid; 
+    grid-template-rows: 70px 1fr 400px;
+    grid-template-columns: 1fr 0.8fr;
+    position: absolute;
+    width: 1440px;
+    height: 2000px;
+    border: 1.5px solid #E1E2E4;
+}
+.logo{
+    position: absolute;
+width: 98px;
+height: 82px;
+left: 117px;
+top: 30px;
+background: url(Logo\ \(1\)\ 1.png);
+}
+.header{
+    position: fixed;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    object-fit: cover;
+}
+.lb{
+    grid-row-start:2 ;
+    grid-row-end:3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    object-fit: cover;
+
+}
+.rb{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start:3 ;
+    grid-row-end: 4;
+}
+.H1{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    text-overflow:ellipsis;
+width: 400px;
+height: 45px;
+left: 117px;
+top: 266px;
+  font-family: 'Michroma';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/michroma/v16/PN_zRfy9qWD8fEagAPg9pTk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+font-size: 38px;
+line-height: 45px;
+/* identical to box height */
+
+
+color: #16171C;
+font-stretch: 100;
+font-variation-settings: 'GRAD' 122, 'slnt' 0, 'XTRA' 603, 'XOPQ' 96, 'YOPQ' 100, 'YTLC' 514, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738
+
+border: 1px solid rgba(0, 0, 0, 0.5);
+position: absolute;
+
+}
+.para{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+width: 573px;
+height: 272px;
+left: 117px;
+top: 373px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 34px;
+/* or 170% */
+
+
+color: #000000;
+
+opacity: 0.5;
+}
+.team{
+    display: flex;
+    flex-wrap: wrap;
+  position: absolute;
+width: 37px;
+height: 0px;
+left: 495px;
+position: absolute;
+width: 51px;
+height: 20px;
+left: 485px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+
+
+color: #4E5DC0;
+}
+.au{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+width: 79px;
+height: 20px;
+left: 608px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+
+
+color: #777C85;
+}
+.c{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+width: 70px;
+height: 20px;
+left: 754px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+
+
+/* Neutral 1 */
+
+color: #777C85;
+}
+.conc{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+width: 68px;
+height: 20px;
+left: 898px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 20px;
+color: #777C85;
+}
+.h2{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+width: 260px;
+height: 45px;
+left: 791px;
+top: 800px;
+
+  font-family: 'Michroma';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/michroma/v16/PN_zRfy9qWD8fEagAPg9pTk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+font-weight: 400;
+font-size: 38px;
+line-height: 45px;
+/* identical to box height */
+
+
+color: #16171C;
+font-stretch: 100;
+font-variation-settings: 'GRAD' 122, 'slnt' 0, 'XTRA' 603, 'XOPQ' 96, 'YOPQ' 100, 'YTLC' 514, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738;
+
+}
+.p2{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    object-fit: cover;
+height: 45px;
+left: 791px;
+top: 900px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 45px;
+opacity: 0.5;
+/* identical to box height */
+
+
+color: #000000;
+font-stretch: 100;
+font-variation-settings: 'GRAD' 122, 'slnt' 0, 'XTRA' 603, 'XOPQ' 96, 'YOPQ' 100, 'YTLC' 514, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738;
+
+}
+button {
+    display: flex;
+    flex-wrap: wrap;
+  background-color:#4E5DC0; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.b1{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1205px;
+}
+.p3{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    object-fit: cover;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 45px;
+opacity: 0.5;
+height: 45px;
+left: 791px;
+top: 1100px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1.5px solid #E1E2E4;
+}
+.privacy{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+width: 300px;
+height: 32px;
+left: 70px;
+top: 1800px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+
+letter-spacing: 3px;
+text-decoration-line: underline;
+text-transform: uppercase;
+
+color: #4E5DC0;
+
+}
+.add{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+width: 50px;
+height: 32px;
+left: 435px;
+top: 1650px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+
+letter-spacing: 3px;
+text-transform: uppercase;
+
+color: #4E5DC0;
+}
+.logo2{
+    position: absolute;
+width: 98px;
+height: 82px;
+left: 80px;
+top: 1653px;
+background: url(Logo\ \(1\)\ 1.png);
+}
+.p4{
+     display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    object-fit: cover;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 45px;
+opacity: 0.5;
+position: absolute;
+width: 332px;
+height: 96px;
+left: 435px;
+top: 1707px;
+
+color: #999999;
+}
+.email{
+    position: absolute;
+width: 61px;
+height: 32px;
+left: 435px;
+top: 1853px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+
+letter-spacing: 3px;
+text-transform: uppercase;
+
+color: #4E5DC0
+}
+.eid{
+    position: absolute;
+width: 185px;
+height: 32px;
+left: 435px;
+top: 1899px;
+
+display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    object-fit: cover;
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 45px;
+opacity: 0.5;
+    font-family: 'Raleway';
+}
+.p6{
+    position: absolute;
+width: 209px;
+height: 64px;
+left: 70px;
+top: 1847px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+/* or 200% */
+
+
+color: #999999;
+
+}
+.menu{
+    position: absolute;
+width: 57px;
+height: 32px;
+left: 925px;
+top: 1650px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+
+letter-spacing: 3px;
+text-transform: uppercase;
+
+color: #4E5DC0;
+}
+.p5{
+    position: absolute;
+width: 80px;
+height: 128px;
+left: 925px;
+top: 1699px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+font-size: 16px;
+line-height: 32px;
+/* or 200% */
+
+
+color: #999999;
+}
+.o1{
+    position: absolute;
+    display: flex;
+width: 48px;
+height: 48px;
+left: 1210px;
+top: 1717px;
+border-radius: 50%;
+
+background: #4E5DC0;
+}
+.img1{
+  padding-top: 100px;
+  padding-left: 850px;
+}
+.img2{
+    position: absolute;
+   padding-top: 60%;
+   left: 7%;
+}
+.o2{
+    position: absolute;
+    display: flex;
+width: 48px;
+height: 48px;
+left: 1270px;
+top: 1717px;
+border-radius: 50%;
+
+background: #4E5DC0;
+}
+.o3{
+    position: absolute;
+    display: flex;
+width: 48px;
+height: 48px;
+left: 1330px;
+top: 1717px;
+border-radius: 50%;
+
+background: #4E5DC0;
+}
